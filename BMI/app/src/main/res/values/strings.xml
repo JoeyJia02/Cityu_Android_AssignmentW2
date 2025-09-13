@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="bmi_height">Height(cm)</string>
+    <string name="bmi_weight">Weight(kg)</string>
+    <string name="bmi_btn">See BMI report now</string>
+    <!--what is btn?-->
+    <string name="bmi_result">Your BMI value is</string>
+    <string name="bmi_warning">Height/Weight/Age/Gender cannot be empty</string>
+    <string name="advice_light">You need more calories!</string>
+    <string name="advice_average">You look great!</string>
+    <string name="advice_heavy">You should be on diet!</string>
+    <string name="menu_setting">Settings</string>
+    <!--My code here,and add something in bmi_warning-->
+    <string name="age">Age</string>
+    <string name="gender">Male or Female</string>
+</resources>
