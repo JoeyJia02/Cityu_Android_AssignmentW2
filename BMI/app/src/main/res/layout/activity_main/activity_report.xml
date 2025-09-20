@@ -14,8 +14,6 @@
         android:text="@string/app_name"
         android:textColor="#333333"
         android:textSize="34sp" />
-
-    <!-- 修正：将report_image改为resultImage，匹配代码中的R.id.resultImage -->
     <ImageView
         android:layout_width="240dp"
         android:layout_height="240dp"
@@ -23,9 +21,7 @@
         android:paddingTop="40dp"
         android:paddingBottom="10dp"
         android:src="@drawable/bot_fit"
-        android:id="@+id/resultImage"/>
-
-    <!-- 修正：将report_result改为resultTV，匹配代码中的R.id.resultTV -->
+        android:id="@+id/report_image"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,14 +30,9 @@
         android:paddingBottom="10dp"
         android:textSize="20sp"
         android:text="@string/bmi_result"
-        android:id="@+id/resultTV"/>
-
-    <!-- 新增：添加adviceTV控件，匹配代码中的R.id.adviceTV -->
+        android:id="@+id/report_result"/>
     <TextView
-        android:id="@+id/adviceTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="18sp"
-    />
+        />
 </LinearLayout>

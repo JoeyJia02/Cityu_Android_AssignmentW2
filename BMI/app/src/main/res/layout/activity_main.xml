@@ -1,91 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
+    <!-- 原有标题、图片等布局保持不变 -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:background="#F44336"
-        android:rotationX="0"
         android:text="@string/app_name"
         android:textColor="#333333"
         android:textSize="34sp" />
 
-    <ImageView
-        android:id="@+id/star"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/icon_128" />
-
+    <!-- 新增：年龄输入 -->
     <TextView
-        android:id="@+id/gender"
-        android:layout_width="match_parent"
+        android:id="@+id/ageLabel"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/gender"
-        android:textSize="25sp"
-        />
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:text="@string/gender" />
-    <TextView
-        android:id="@+id/age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/age"
-        android:textSize="25sp"
-        android:layout_marginStart="8dp"/>
-
+        android:text="年龄"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
     <EditText
         android:id="@+id/ageET"
-        android:layout_width="390dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="number"
-        android:labelFor="@id/age"/>
+        android:hint="输入年龄"
+        android:layout_marginTop="8dp"/>
 
+    <!-- 新增：性别选择（Switch，默认男） -->
+    <TextView
+        android:id="@+id/genderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+    <Switch
+        android:id="@+id/genderSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="start"/>
+
+    <!-- 原有身高、体重输入保持不变 -->
     <TextView
         android:id="@+id/Height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bmi_height"
-        android:textSize="25sp"/>
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
     <EditText
         android:id="@+id/heightET"
-        android:layout_width="390dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="number"
-        android:labelFor="@id/Height"/>
+        android:hint="输入身高（cm）"
+        android:layout_marginTop="8dp"/>
     <TextView
         android:id="@+id/Weight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bmi_weight"
-        android:textSize="25sp"/>
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
     <EditText
         android:id="@+id/weightET"
-        android:layout_width="390dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="number"
-        android:labelFor="@id/Weight" />
+        android:hint="输入体重（kg）"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:id="@+id/reportBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="see BMI report now"
-        android:textSize="20sp" />
+        android:text="查看BMI报告"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"/>
 </LinearLayout>

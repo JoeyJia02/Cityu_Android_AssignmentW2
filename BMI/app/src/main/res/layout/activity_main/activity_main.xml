@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#F44336"
+        android:rotationX="0"
+        android:text="@string/app_name"
+        android:textColor="#333333"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_128"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textSize="25sp"
+        />
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="@string/gender" />
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="25sp"
+        android:layout_marginStart="8dp"/>
+
+    <EditText
+        android:id="@+id/ageET"
+        android:layout_width="390dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@id/age"/>
+
+    <TextView
+        android:id="@+id/Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_height"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/heightET"
+        android:layout_width="390dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@id/Height"/>
+    <TextView
+        android:id="@+id/Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_weight"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/weightET"
+        android:layout_width="390dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@id/Weight" />
+
+    <Button
+        android:id="@+id/reportBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="see BMI report now"
+        android:textSize="20sp" />
+</LinearLayout>
