@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BMI计算器</string>
+    <string name="age_label">年龄</string>
+    <string name="age_hint">输入年龄</string>
+    <string name="age_empty_tip">请输入年龄</string>
+    <string name="age_min_tip">年龄请输入≥6岁</string>
+    <string name="gender_label">性别</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="height_label">身高（厘米）</string>
+    <string name="height_hint">输入身高</string>
+    <string name="height_empty_tip">请输入身高</string>
+    <string name="weight_label">体重（千克）</string>
+    <string name="weight_hint">输入体重</string>
+    <string name="weight_empty_tip">请输入体重</string>
+    <string name="report_btn">查看报告</string>
+    <string name="about_btn">关于BMI</string>
+    <string name="menu_about">关于BMI</string>
+    <string name="menu_wiki">BMI百科</string>
+    <string name="menu_exit">退出</string>
+    <string name="ctx_menu_about">关于BMI</string>
+    <string name="ctx_menu_wiki">BMI百科</string>
+    <string name="about_dialog_title">关于BMI</string>
+    <string name="about_dialog_content">BMI（身体质量指数）是国际通用的体重评估指标。计算公式：BMI = 体重(kg) ÷ 身高(m)²。分类标准：成年人（≥19岁）：偏瘦（≤18.5）、健康（18.5-23）、超重（23-25）、肥胖（>25）；未成年人（6-18岁）：根据年龄和性别匹配专属BMI区间，分为严重偏瘦、偏瘦、正常、超重、严重超重。</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="advice_light">你需要多补充热量！</string>
+    <string name="advice_average">你的体重很健康！</string>
+    <string name="advice_heavy">你需要控制饮食了！</string>
+    <string name="advice_obese">你需要认真减重了！</string>
+    <string name="advice_teen_normal">你的体重在同龄人中属于正常范围。</string>
+    <string name="advice_normal">你的BMI处于正常范围。</string>
+</resources>

@@ -1,0 +1,9 @@
+<!-- res/menu/menu_context.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctx_menu_about"
+        android:title="@string/ctx_menu_about" />
+    <item
+        android:id="@+id/ctx_menu_wiki"
+        android:title="@string/ctx_menu_wiki" />
+</menu>

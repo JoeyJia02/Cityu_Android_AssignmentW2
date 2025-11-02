@@ -1,17 +1,33 @@
 <resources>
-    <string name="app_name">BMI</string>
-
-    <string name="bmi_height">Height(cm)</string>
-    <string name="bmi_weight">Weight(kg)</string>
-    <string name="bmi_btn">See BMI report now</string>
-    <!--what is btn?-->
-    <string name="bmi_result">Your BMI value is</string>
-    <string name="bmi_warning">Height/Weight/Age/Gender cannot be empty</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="age_label">Age</string>
+    <string name="age_hint">Enter Age</string>
+    <string name="age_empty_tip">Please enter age</string>
+    <string name="age_min_tip">Age must be ≥ 6</string>
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="height_label">Height (cm)</string>
+    <string name="height_hint">Enter Height</string>
+    <string name="height_empty_tip">Please enter height</string>
+    <string name="weight_label">Weight (kg)</string>
+    <string name="weight_hint">Enter Weight</string>
+    <string name="weight_empty_tip">Please enter weight</string>
+    <string name="report_btn">View Report</string>
+    <string name="about_btn">About BMI</string>
+    <string name="menu_about">About BMI</string>
+    <string name="menu_wiki">BMI Wiki</string>
+    <string name="menu_exit">Exit</string>
+    <string name="ctx_menu_about">About BMI</string>
+    <string name="ctx_menu_wiki">BMI Wiki</string>
+    <string name="about_dialog_title">About BMI</string>
+    <string name="about_dialog_content">BMI (Body Mass Index) is an international index for weight assessment. Formula: BMI = Weight(kg) ÷ Height(m)². Categories: Adults (≥19): Underweight (≤18.5), Healthy (18.5-23), Overweight (23-25), Obese (>25). Minors (6-18): Classified by age and gender into severe underweight, underweight, normal, overweight, severe overweight.</string>
+    <string name="dialog_confirm">OK</string>
     <string name="advice_light">You need more calories!</string>
     <string name="advice_average">You look great!</string>
     <string name="advice_heavy">You should be on diet!</string>
-    <string name="menu_setting">Settings</string>
-    <!--My code here,and add something in bmi_warning-->
-    <string name="age">Age</string>
-    <string name="gender">Male or Female</string>
+    <string name="advice_obese">You need to lose weight seriously!</string>
+    <string name="advice_teen_normal">Your weight is normal for your age and gender.</string>
+    <string name="advice_normal">Your BMI is in the normal range.</string>
+
 </resources>

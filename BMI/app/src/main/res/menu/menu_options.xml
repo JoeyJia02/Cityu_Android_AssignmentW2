@@ -1,0 +1,16 @@
+<!-- res/menu/menu_options.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never" /> <!-- 仅在溢出菜单中显示 -->
+    <item
+        android:id="@+id/menu_wiki"
+        android:title="@string/menu_wiki"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"
+        app:showAsAction="never" />
+</menu>
