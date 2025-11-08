@@ -29,4 +29,5 @@
     <string name="advice_obese">你需要认真减重了！</string>
     <string name="advice_teen_normal">你的体重在同龄人中属于正常范围。</string>
     <string name="advice_normal">你的BMI处于正常范围。</string>
+    <string name="about_history">查看历史</string>>
 </resources>

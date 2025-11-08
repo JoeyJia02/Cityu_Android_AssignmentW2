@@ -29,5 +29,5 @@
     <string name="advice_obese">You need to lose weight seriously!</string>
     <string name="advice_teen_normal">Your weight is normal for your age and gender.</string>
     <string name="advice_normal">Your BMI is in the normal range.</string>
-
+    <string name="about_history">History</string>>
 </resources>

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- 标题栏 -->
+        <!-- 标题栏（原始保留） -->
         <TextView
             android:id="@+id/titleTV"
             android:layout_width="match_parent"
@@ -20,14 +20,14 @@
             android:textColor="#333333"
             android:textSize="34sp" />
 
-        <!-- 年龄 + 性别 横向排列 -->
+        <!-- 年龄 + 性别 横向排列（原始保留） -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:orientation="horizontal">
 
-            <!-- 年龄输入模块 -->
+            <!-- 年龄输入模块（原始保留） -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                     android:inputType="number" />
             </LinearLayout>
 
-            <!-- 性别选择模块 -->
+            <!-- 性别选择模块（原始保留） -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -74,14 +74,14 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- 身高 + 体重 横向排列 -->
+        <!-- 身高 + 体重 横向排列（原始保留） -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:orientation="horizontal">
 
-            <!-- 身高输入模块 -->
+            <!-- 身高输入模块（原始保留） -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                     android:inputType="number" />
             </LinearLayout>
 
-            <!-- 体重输入模块 -->
+            <!-- 体重输入模块（原始保留） -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -126,7 +126,8 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- 查看BMI报告按钮 -->
+        <!-- 按钮区域（保留原始按钮，新增历史按钮） -->
+        <!-- 查看BMI报告按钮（原始保留） -->
         <Button
             android:id="@+id/reportBtn"
             android:layout_width="match_parent"
@@ -135,7 +136,7 @@
             android:text="@string/report_btn"
             android:textSize="20sp" />
 
-        <!-- 关于BMI按钮 -->
+        <!-- 关于BMI按钮（原始保留） -->
         <Button
             android:id="@+id/aboutBmiBtn"
             android:layout_width="match_parent"
@@ -143,6 +144,17 @@
             android:layout_marginTop="12dp"
             android:text="@string/about_btn"
             android:textSize="20sp" />
+
+        <!-- 新增：查看历史趋势按钮（风格与现有按钮统一） -->
+        <Button
+            android:id="@+id/btn_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/about_history"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
 
     </LinearLayout>
 </ScrollView>
